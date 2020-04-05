@@ -3,7 +3,7 @@ spring:
     name: banana-zuul
   cloud:
     config:
-      name: eureka,admin
+      name: eureka,admin,redis
       uri: http://192.168.26.128:10010
 server:
   port: 10012
