@@ -6,7 +6,7 @@ spring:
       name: eureka,admin,redis
       uri: http://192.168.26.128:10010
 server:
-  port: 10012
+  port: 80
 zuul:
   routes:
     BANANA_AUTH:
